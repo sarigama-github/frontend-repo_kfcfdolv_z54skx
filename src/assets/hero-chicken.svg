@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#E10600"/>
+      <stop offset="100%" stop-color="#FFCE30"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#111111" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+  <rect width="800" height="500" fill="#111111"/>
+  <g filter="url(#shadow)">
+    <circle cx="380" cy="240" r="140" fill="url(#g)"/>
+    <rect x="330" y="180" rx="18" ry="18" width="140" height="120" fill="#fff"/>
+    <ellipse cx="400" cy="260" rx="90" ry="45" fill="#f2f2f2"/>
+    <path d="M340 210c20-40 120-40 140 0-10 20-30 30-70 30s-60-10-70-30z" fill="#E10600"/>
+    <path d="M360 200c10-18 30-18 40 0 0 10-10 18-20 18s-20-8-20-18z" fill="#FFCE30"/>
+  </g>
+  <text x="40" y="90" fill="#fff" font-size="40" font-weight="800" font-family="Inter, sans-serif">BOSKIING</text>
+  <text x="40" y="130" fill="#FFCE30" font-size="16" font-family="Inter, sans-serif">Fast. Fresh. Boss Level.</text>
+</svg>

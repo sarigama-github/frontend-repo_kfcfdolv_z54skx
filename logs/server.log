@@ -1,0 +1,13 @@
+
+> vibe-generated-app@1.0.0 dev
+> vite
+
+
+  VITE v5.4.20  ready in 258 ms
+
+  ➜  Local:   http://localhost:3000/
+  ➜  Network: http://172.20.8.254:3000/
+1:57:28 AM [vite] Pre-transform error: Failed to parse source for import analysis because the content contains invalid JS syntax. If you are using JSX, make sure to name the file with the .jsx or .tsx extension.
+1:57:28 AM [vite] Pre-transform error: Failed to parse source for import analysis because the content contains invalid JS syntax. If you are using JSX, make sure to name the file with the .jsx or .tsx extension.
+1:57:29 AM [vite] ✨ new dependencies optimized: lucide-react, @splinetool/react-spline, framer-motion
+1:57:29 AM [vite] ✨ optimized dependencies changed. reloading
